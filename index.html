@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#050914">
+<title>REALMAX GetKey Free Fire</title>
+<style>
+:root{color-scheme:dark;--cyan:#46eaff;--blue:#3987ff;--purple:#9d5cff;--muted:#8fa5c4;--panel:rgba(7,15,32,.84)}
+*{box-sizing:border-box}
+html{min-height:100%;background:#030611}
+body{margin:0;min-height:100vh;display:grid;place-items:center;padding:22px 14px;overflow-x:hidden;background:radial-gradient(ellipse at 50% -10%,rgba(31,105,220,.32),transparent 48%),radial-gradient(circle at 0% 85%,rgba(115,45,220,.14),transparent 32%),#030611;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#edf6ff;position:relative}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background-image:linear-gradient(rgba(65,151,255,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(65,151,255,.055) 1px,transparent 1px);background-size:32px 32px;mask-image:linear-gradient(to bottom,black,transparent 92%)}
+body:after{content:"";position:fixed;width:260px;height:260px;left:calc(50% - 130px);top:calc(50% - 130px);border-radius:50%;border:1px solid rgba(70,234,255,.07);box-shadow:0 0 0 35px rgba(70,234,255,.018),0 0 0 70px rgba(157,92,255,.015);pointer-events:none}
+.card{position:relative;z-index:1;width:min(100%,460px);padding:clamp(22px,6vw,34px);border:1px solid transparent;border-radius:26px;background:linear-gradient(var(--panel),var(--panel)) padding-box,linear-gradient(135deg,rgba(70,234,255,.8),rgba(57,135,255,.15) 48%,rgba(157,92,255,.72)) border-box;backdrop-filter:blur(18px);box-shadow:0 22px 80px rgba(0,0,0,.45),0 0 38px rgba(27,128,255,.13),inset 0 1px rgba(255,255,255,.04);animation:rise .7s ease both}
+.card:before{content:"";position:absolute;top:0;left:16%;right:16%;height:1px;background:linear-gradient(90deg,transparent,var(--cyan),transparent);box-shadow:0 0 16px var(--cyan)}
+.badge{display:table;margin:0 auto;padding:7px 12px;border:1px solid rgba(70,234,255,.28);border-radius:999px;background:rgba(70,234,255,.06);font-size:10px;font-weight:800;letter-spacing:2.4px;color:var(--cyan);text-align:center}
+h1{text-align:center;font-size:clamp(32px,9vw,42px);letter-spacing:4px;margin:17px 0 4px;font-weight:900;line-height:1.1;text-shadow:0 0 28px rgba(57,135,255,.15)}
+h1 span{color:var(--cyan);text-shadow:0 0 10px rgba(70,234,255,.75),0 0 28px rgba(57,135,255,.35)}
+.sub{text-align:center;color:#9aacc8;font-size:12px;letter-spacing:2px;margin:10px 0 27px}
+label{display:block;font-size:12px;font-weight:700;letter-spacing:.5px;color:#a8bbd7;margin:18px 0 8px}
+input{width:100%;min-width:0;padding:15px 13px;border-radius:13px;border:1px solid #263d5c;background:rgba(2,7,18,.88);color:var(--cyan);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:14px;letter-spacing:.4px;outline:none;transition:border-color .2s,box-shadow .2s}
+input::placeholder{color:#566b89}input:focus{border-color:var(--cyan);box-shadow:0 0 0 3px rgba(70,234,255,.1)}
+button{position:relative;overflow:hidden;width:100%;border:1px solid rgba(255,255,255,.08);border-radius:13px;padding:15px 16px;margin-top:12px;background:linear-gradient(105deg,#126fe4,#1aaee8 58%,#6c6cff);color:#fff;font-weight:850;font-size:13px;letter-spacing:1px;cursor:pointer;box-shadow:0 8px 25px rgba(20,130,255,.22);transition:transform .18s,filter .18s,box-shadow .18s}
+button:before{content:"";position:absolute;inset:0;transform:translateX(-120%);background:linear-gradient(110deg,transparent,rgba(255,255,255,.24),transparent);transition:transform .5s}
+button:hover:before{transform:translateX(120%)}button:hover{filter:brightness(1.12);box-shadow:0 8px 30px rgba(20,170,255,.32)}button:active{transform:scale(.985)}button:disabled{opacity:.6;cursor:wait;filter:saturate(.6)}
+button.secondary{background:rgba(15,29,51,.9);border:1px solid #2a4565;box-shadow:none;color:#b8d8ff;letter-spacing:.2px}
+.keyrow{display:flex;gap:8px;align-items:stretch}.keyrow input{flex:1}.keyrow button{width:auto;min-width:88px;margin-top:0;white-space:nowrap;padding-inline:12px}
+.status{min-height:22px;margin-top:13px;font-size:12px;line-height:1.6;color:#7fffd1;overflow-wrap:anywhere}
+.status:empty{display:none}
+.info{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:20px}
+.info>div{padding:12px;border:1px solid rgba(69,113,163,.25);border-radius:13px;background:rgba(4,11,24,.65)}
+.label{font-size:10px;letter-spacing:1.5px;color:#7289a9}.value{margin-top:5px;font-size:13px;font-weight:750;color:#dcecff}
+.online-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#5affb5;box-shadow:0 0 10px #5affb5;margin-right:6px}
+.small{color:#7185a4;text-align:center;font-size:10px;margin-top:23px;line-height:1.8;letter-spacing:.2px}
+@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:360px){.card{padding:21px 16px;border-radius:20px}.keyrow{gap:6px}.keyrow button{min-width:76px;font-size:12px;padding-inline:8px}.sub{letter-spacing:1.2px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<main class="card">
+  <div class="badge">SECURE LICENSE SYSTEM</div>
+  <h1>REAL<span>MAX</span></h1>
+  <div class="sub">FREE FIRE • GET KEY ONLINE</div>
+  <div class="info"><div><div class="label">SERVER STATUS</div><div class="value"><span class="online-dot"></span>ONLINE API</div></div><div><div class="label">KEY VALIDITY</div><div class="value">24 HOURS</div></div></div>
+
+  <button id="getBtn" onclick="getKey()">🔑 GET FREE KEY</button>
+  <div id="getStatus" class="status" aria-live="polite"></div>
+
+  <label for="keyInput">KEY ของคุณ</label>
+  <div class="keyrow">
+    <input id="keyInput" placeholder="REAL-XXXX-XXXX-XXXX" autocomplete="off">
+    <button class="secondary" onclick="copyKey()">คัดลอก</button>
+  </div>
+  <button class="secondary" onclick="verifyKey()">ตรวจสอบ KEY</button>
+  <div id="verifyStatus" class="status" aria-live="polite"></div>
+  <div class="small">KEY มีอายุ 24 ชั่วโมงนับจากเวลาที่สร้าง<br>REALMAX KEY SYSTEM • SECURE LICENSE API</div>
+</main>
+<script>
+async function getKey(){
+  const btn=document.getElementById('getBtn');
+  const status=document.getElementById('getStatus');
+  btn.disabled=true; status.textContent='กำลังสร้างคีย์...';
+  try{
+    const r=await fetch('/api/getkey',{method:'POST'});
+    const d=await r.json();
+    if(!r.ok||!d.ok) throw new Error(d.message||'เกิดข้อผิดพลาด');
+    document.getElementById('keyInput').value=d.key;
+    status.textContent='✓ '+d.message+' • หมดอายุ: '+new Date(d.expires_at).toLocaleString();
+  }catch(e){status.textContent='✕ '+e.message;}
+  finally{btn.disabled=false;}
+}
+async function verifyKey(){
+  const key=document.getElementById('keyInput').value.trim();
+  const status=document.getElementById('verifyStatus');
+  status.textContent='กำลังตรวจสอบ...';
+  try{
+    const r=await fetch('/api/verify',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({key})});
+    const d=await r.json();
+    status.textContent=(d.valid?'✓ ':'✕ ')+d.message+(d.expires_at?' • หมดอายุ: '+new Date(d.expires_at).toLocaleString():'');
+    status.style.color=d.valid?'#8be8bd':'#ff9292';
+  }catch(e){status.textContent='✕ ติดต่อเซิร์ฟเวอร์ไม่ได้';status.style.color='#ff9292';}
+}
+async function copyKey(){
+  const input=document.getElementById('keyInput');
+  const status=document.getElementById('getStatus');
+  if(!input.value){status.textContent='ยังไม่มีคีย์ให้คัดลอก';return;}
+  try{await navigator.clipboard.writeText(input.value);status.textContent='คัดลอกคีย์แล้ว';}
+  catch(e){input.select();status.textContent='เลือกคีย์แล้ว ให้กดคัดลอกจากเมนูมือถือ';}
+}
+</script>
+</body>
+</html>
